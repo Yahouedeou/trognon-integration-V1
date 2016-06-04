@@ -1,0 +1,844 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li {
+
+list-style-type: none;
+
+}
+
+.first-bloc {
+  background: url('../img/background-drinks.jpeg');
+  background-size: cover;
+  background-position: auto;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.first-container {
+  width: 100%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* MENU */
+
+#menu-items ul {
+  float: right;
+}
+
+#menu-items ul li {
+  float: left;
+  text-align: center;
+  list-style: none;
+  margin-top: 14px;
+}
+
+#menu {
+  margin-top: 30px;
+  display: block;
+  overflow: hidden;
+}
+
+#menu-items a {
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+#footer p, #footer a {
+  color: #FFF;
+  margin: 0;
+  text-align: center;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+#footer {
+  padding: 20px 0;
+  background-color: #212121;
+  display: block;
+  overflow: hidden;
+}
+
+#footer-signature p {
+  padding-top: 5px;
+}
+
+#footer-copyrights p {
+  padding-top: 4px;
+}
+
+
+#footer-contact a {
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  padding: 9px 10px;
+  display: inline-block;
+}
+
+/* HEADER */
+
+#main-header-pitch h1 {
+  font-family: Courgette-Regular;
+  font-size: 56px;
+  color: #FFF;
+  line-height: 64px;
+  text-align: center;
+  width: 80%;
+  margin: 130px auto 40px auto;
+}
+
+#main-header-pitch #main-cta-header {
+margin-top: 16px;
+text-align: center;
+}
+
+#main-cta-header a {
+  padding: 16px 27px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.cta-red a {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 12px 65px;
+  background-color: #FF5252;
+  border: 1px solid #FF5252;
+  border-bottom: 1px solid #D50000;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.cta-red-text a {
+font-size: 16px;
+color: #FF5252;
+}
+
+.cta-grey a {
+  color: #546E7A;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 12px 65px;
+  background-color: #ECEFF1;
+  border: 1px solid #90A4AE;
+  border-bottom: 1px solid #455A64;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  color: #FC3841;
+  padding: 0 0 20px 0;
+  margin: 0;
+
+}
+
+p {
+  font-weight: 300;
+  font-size: 21px;
+  color: #424242;
+  line-height: 36px;
+}
+
+.container-classic {
+  padding: 100px 0;
+}
+
+.container-classic h2, .container-classic p {
+text-align: center;
+}
+
+.container-1stcolor {
+  background-color: #FFF;
+}
+
+.container-2ndcolor {
+  background-color: #F5F5F5;
+}
+
+.container-3rdcolor {
+  background-color: #FC3841;
+}
+
+.container-icons-columns img {
+margin: 0px auto 20px auto;
+display: block;
+float: none;
+}
+
+.container-icons-columns {
+  margin: 65px auto 20px auto;
+  display: block;
+  overflow: hidden;
+
+}
+
+.container-three-icons h3 {
+font-size: 24px;
+font-weight: 500;
+color: #191919;
+text-align: center;
+}
+
+.container-three-icons p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #424242;
+  line-height: 27px;
+  text-align: center;
+}
+
+.container-leftaligment h2, .container-leftaligment p {
+  text-align: left;
+}
+
+.container-leftaligment img{
+  margin: 50px auto 0px auto;
+  display: block;
+  float: none;
+}
+
+.container-3rdcolor h2, .container-3rdcolor p {
+  color: #FFF;
+}
+
+#values-stats {
+  margin-top: 50px;
+}
+
+#values-stats ul li{
+  text-align: center;
+}
+
+#values-stats ul li:first-child {
+  font-weight: 600;
+  font-size: 40px;
+  color: #FFF;
+}
+
+#values-stats ul li:nth-child(2) {
+  font-size: 21px;
+  color: #FFF;
+  font-weight: 300;
+}
+
+.container-centered p {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* OFFER-PAGE MILKMAN*/
+
+#header-offers h1 {
+  font-weight: 600;
+  font-size: 42px;
+  color: #FFF;
+  line-height: 57px;
+  margin: 90px 0 20px 0;
+  width: 50%;
+}
+
+#header-offers p {
+  font-weight: 300;
+  font-size: 21px;
+  color: #FFF;
+  line-height: 28px;
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+#header-offers #main-cta-header a {
+  padding: 16px 65px;
+}
+
+.container-four-icons .container-icons-columns h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 15px;
+  line-height: 27px;
+}
+
+
+.container-four-icons .container-icons-columns p {
+  font-size: 15px;
+  color: #424242;
+  font-weight:300;
+  line-height: 20px;
+}
+
+.container-icons-columns h3, .container-icons-columns p {
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+
+.container-four-icons .container-icons-columns h3, .container-four-icons .container-icons-columns p {
+  text-align: center;
+}
+
+.conainter-offer-milkman {
+  background: #FFF;
+  border: 2px solid;
+  border-top: 10px solid;
+  padding: 30px 50px 50px 50px;
+  margin-top: 30px;
+}
+
+#benefits-offer.container-classic {
+  padding: 50px 0;
+}
+
+/*PLANS OFFER*/
+
+.main-container-offers {
+  display: block;
+  overflow: hidden;
+  float: none;
+  margin: 0 auto;
+
+}
+
+#plans-offer .conainter-offer-1 {
+  margin-left: 6%;
+}
+
+#plans-offer .conainter-offer-1, #plans-offer .conainter-offer-2 {
+  width: 44%;
+}
+
+
+#conainter-offer-milkman-1 {
+  border-color: #9CCC65;
+}
+
+#conainter-offer-milkman-2  {
+  border-color: #FFB300;
+}
+
+.conainter-offer-milkman h4 {
+  font-weight: 300;
+  font-size: 32px;
+  color: #000;
+  margin: 10px 0 0 0;
+}
+
+.offer-header-bloc ul li {
+  float: left;
+}
+
+#conainter-offer-milkman-1 .offer-header-bloc ul li  {
+  color: #9CCC65;
+}
+
+#conainter-offer-milkman-2 .offer-header-bloc ul li {
+  color: #FFB300;
+}
+
+.offer-header-bloc {
+  padding: 0 10px 0 10px;
+}
+
+.offer-description-bloc {
+  padding: 30px 0px 30px 10px;
+}
+
+.offer-conditions-bloc {
+  margin: 30px 0;
+}
+
+.offer-header-bloc ul {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.offer-header-bloc ul li:first-child {
+  font-weight: 600;
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.offer-header-bloc ul li:nth-child(2) {
+  font-weight: 300;
+  font-size: 21px;
+  padding-top: 1px;
+}
+
+.offer-description-bloc {
+  width: 100%;
+}
+
+.offer-description-bloc p {
+  font-size: 16px;
+  color: #212121;
+  line-height: 1.5em;
+  font-weight: 300;
+  text-align: left;
+  margin: 0;
+}
+
+
+.offer-list-product-bloc ul {
+  margin: 0 0 20px 10px;
+  background: url('../img/noun_10734_cc.png') no-repeat 0px 14px;
+  padding-left: 40px;
+}
+
+.offer-list-product-bloc ul li:first-child {
+  font-size: 16px;
+  font-weight: 400;
+  color: #212121;
+}
+
+.offer-list-product-bloc ul li:nth-child(2) {
+  font-size: 15px;
+  font-weight: 300;
+  color: #757575;
+  font-style: italic;
+}
+
+.offer-conditions-bloc {
+  border-top: 1px solid #E53935;
+  border-bottom: 1px solid #E53935;
+}
+
+.offer-conditions-bloc ul  {
+  background: url('../img/icon-conditions-bis.png') no-repeat 5px 30px;
+  padding: 10px;
+}
+
+.offer-conditions-bloc ul li {
+  color: #E53935;
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+.cta-offer {
+  text-align: center;
+}
+
+/* Subscription*/
+
+#subcription-conainer .first-container {
+  height: auto;
+  padding-bottom: 40px;
+}
+
+
+#subcription-conainer #header-offers h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.open-subscription-step {
+  padding: 30px 50px;
+}
+
+.subscription-steps-container h3{
+  font-weight: 500;
+  font-size: 22px;
+  color: #FF5252;
+  text-align: center;
+}
+
+.open-subscription-step h3 {
+  margin: 0 0 40px 0;
+}
+
+.steps-done h3 {
+  margin: 20px 0;
+}
+
+.steps-done h3::after {
+  content: "";
+  background: url('../img/noun_164088_cc.png') no-repeat 10px 7px;
+  padding-right: 40px;
+  opacity: 1;
+  transition: all 0.15s ease-in-out;
+   -moz-transition: all 0.15s ease-in-out;
+   -webkit-transition: all 0.15s ease-in-out;
+   -o-transition: all 0.15s ease-in-out;
+}
+
+.steps-done h3 {
+  margin-left: 20px;
+}
+
+.steps-done .cta-red-text a {
+  font-size: 13px;
+}
+
+.steps-done .cta-red-text {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  opacity: 0;
+  transition: all 0.15s ease-in-out;
+   -moz-transition: all 0.15s ease-in-out;
+   -webkit-transition: all 0.15s ease-in-out;
+   -o-transition: all 0.15s ease-in-out;
+
+
+}
+
+.subscription-steps-container.steps-done:hover .cta-red-text{
+  display: block;
+  opacity: 1;
+  transition: all 0.15s ease-in-out;
+   -moz-transition: all 0.15s ease-in-out;
+   -webkit-transition: all 0.15s ease-in-out;
+   -o-transition: all 0.15s ease-in-out;
+
+}
+
+.subscription-steps-container.steps-done:hover h3::after{
+  opacity: 0;
+  transition: all 0.15s ease-in-out;
+   -moz-transition: all 0.15s ease-in-out;
+   -webkit-transition: all 0.15s ease-in-out;
+   -o-transition: all 0.15s ease-in-out;
+}
+
+/* Steps */
+
+#subscription-steps {
+  display: block;
+  overflow: hidden;
+
+}
+
+.subscription-steps-container {
+  background: #FFF;
+  margin:  0px 0 10px 2%;
+}
+
+
+#subscription-steps .subscription-steps-container:first-child {
+  margin-top: 10px;
+}
+
+.cta-subscription {
+  text-align: center;
+  padding: 10px 0 0px 0;
+  clear: both;
+}
+
+label {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1em;
+  color: #757575;
+  margin: 0 0 5px 0;
+  width: 100%;
+
+}
+
+input, textarea, select {
+  background: #FFF;
+  border: 1px solid #9E9E9E;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  padding: 0 12px;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+
+.steps-container-label-inputs {
+  margin: 0 0 30px 0 !important;
+  padding: 0 5px;
+  float: left;
+}
+
+.subscription-steps-container  h5 {
+  font-weight: 300;
+  font-size: 20px;
+  color: #424242;
+  text-align: center;
+  padding: 10px 0 20px 0;
+}
+
+/*Confirmation Page*/
+
+#confirmation-container {
+  padding: 60px 80px;
+  background: #F5F5F5;
+  border: 10px solid #FF5252;
+  display: block;
+  overflow: hidden;
+  margin: 60px auto;
+  float: none;
+}
+
+#confirmation-container h1, #confirmation-container p {
+  text-align: center;
+}
+
+#confirmation-container h1 {
+  font-size: 32px;
+  font-weight: 500;
+  margin:  0 0 15px 0;
+  color: #000;
+}
+
+#confirmation-container p {
+  font-weight: 500;
+  margin:  0 auto 10px auto;
+  color: #424242;
+  font-size: 18px;
+  text-align: center;
+  width: 80%;
+  line-height: 1.5em;
+}
+
+#confirmation-container img {
+  width: auto;
+  margin: 0 auto 20px auto;
+  display: block;
+
+}
+
+.cta-confirmation {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+
+/*Account Page*/
+
+#sidebar-account ul li {
+  font-size: 16px;
+  border-top: 1px solid #424242;
+}
+
+#sidebar-account ul li a {
+  color: #FFF;
+  font-weight: 300;
+  width: 100%;
+  padding: 20px 0px 20px 40px;
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+#sidebar-account ul li:hover {
+  border-left: 5px solid #FF5252;
+}
+
+#sidebar-account ul li:hover a, #sidebar-account ul li.active a {
+  margin-left: -5px;
+}
+
+#sidebar-account ul li.active:hover {
+  margin-left: 0px;
+}
+
+#sidebar-account ul li.active  {
+  border-left: 5px solid #FF5252;
+  margin-left: 0px;
+}
+
+
+
+#sidebar-account ul li:last-child {
+  color: #FFF;
+  font-weight: 300;
+  border-bottom: 1px solid #424242;
+
+}
+
+#account-container {
+  float: none;
+  margin: 80px auto 0px auto;
+  overflow: hidden;
+  display: block;
+  min-height: 1140px;
+
+}
+
+#sidebar-account {
+  background: #212121;
+  margin: 0 0 -99999px 0;
+  padding: 20px 0px 99999px 0px;
+}
+
+#maincontainer-account {
+  background: #F5F5F5;
+  padding: 60px 30px;
+  margin: 0 0 -99999px 0;
+  padding: 60px 30px 99999px 30px;
+
+}
+
+#sidebar-account h1 {
+  background: #212121;
+  padding: 0;
+  text-align: center;
+  color: #FFF;
+  font-size: 31px;
+  font-weight: 300;
+  padding: 20px 0 40px 0;
+}
+
+#maincontainer-account h2 {
+  font-size: 26px;
+  color: #FF5252;
+  font-weight: 500;
+  border-bottom: solid 1px #E0E0E0;
+  padding: 0 0 10px 0;
+  margin: 0 0 25px 0;
+}
+
+#maincontainer-account p, #maincontainer-account ul li {
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 300;
+  color: #212121;
+  margin: 0 0 10px 0;
+}
+
+.account-sub-containers {
+  margin: 10px 0 0px 0;
+  display: block;
+  overflow: hidden;
+  padding: 0px 5px;
+
+}
+
+.account-bloc-containers .col-xs-1, .account-bloc-containers .col-xs-2, .account-bloc-containers .col-xs-3, .account-bloc-containers .col-xs-4, .account-bloc-containers .col-xs-5, .account-bloc-containers .col-xs-6, .account-bloc-containers .col-xs-7, .account-bloc-containers .col-xs-8, .account-bloc-containers .col-xs-9, .account-bloc-containers .col-xs-10, .account-bloc-containers .col-xs-11, .account-bloc-containers .col-xs-12 {
+  margin: 5px 0;
+}
+
+.account-bloc-containers {
+  background: #FFF;
+  padding: 30px 0;
+  overflow: hidden;
+}
+
+.cta-account a {
+  padding: 9px 27px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 5px 0 0 0;
+}
+
+.cta-red-text.cta-account a {
+  padding: 0;
+}
+
+.cta-account.cta-centered {
+  text-align: center;
+}
+
+.cta-modal {
+  text-align: right;
+  margin: 0 0 0 10px;
+  display: inline-block;
+}
+
+
+#maincontainer-account h3 {
+  /* Prochaine Commande: */
+  font-weight: 600;
+  font-size: 18px;
+  color: #FF5252;
+  margin: 0;
+  padding: 0 0px 20px 0px;
+}
+
+#overview-tab-content h3 {
+  padding: 0 15px 20px 15px;
+}
+
+.col-xs-12.container-content-modal {
+  display: block;
+  overflow: hidden;
+  float: none;
+  margin: 0 0 0 0;
+  padding: 15px;
+}
+
+.modal-header h4 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #FF5252;
+  padding: 10px 10px;
+}
+
+.modal-footer, .modal-header {
+  background: #F6F6F6;
+}
+
+
+
+/*Account Page - Overview */
+
+#maincontainer-account ul li:first-child {
+  font-size: 15px;
+  color: #424242;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+
+.account-content-text p{
+  font-size: 14px;
+  color: #424242;
+  line-height: 23px;
+  font-weight: 300;
+}
+
+#profil-tab-content .account-container-xs-8 {
+  float: none;
+  margin: 0 auto;
+}
+
+/*Order Tabs*/
+
+.cta-orders-tab {
+  margin: 60px 0 0 0;
+}
+
+#orders-tab-content .account-bloc-containers {
+  margin: 10px 0 0px 0;
+}
+
+#maincontainer-account .account-status-order p {
+  margin: 0;
+}
+
+/*Password Account*/
+#password-tab-content .cta-account {
+  float: left;
+  margin-right: 10px;
+}
+
+#password-tab-content .cta-account.cta-modal {
+  float: none ;
+}
+
+#password-tab-content span.bold {
+  font-weight: 600;
+}

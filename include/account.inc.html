@@ -1,0 +1,524 @@
+
+<?php include ('include/header.inc.html'); ?>
+
+<div id="subcription-conainer" class="first-bloc">
+  <div class="first-container">
+    <div class="container">
+      <div class="row">
+
+        <?php include ('include/menu.inc.html'); ?>
+
+        <div class="col-xs-12" id="account-container">
+
+
+          <div id="sidebar-account" class="col-xs-3">
+            <h1>Votre Compte</h1>
+            <ul id="tabs-account" data-tabs="tabs">
+                <li class="active"><a href="#overview-tab-content" data-toggle="tab"><?php echo "$accountpage_menu_overview"; ?></a></li>
+                <li><a href="#profil-tab-content" data-toggle="tab"><?php echo "$accountpage_menu_profil"; ?></a></li>
+                <li><a href="#orders-tab-content" data-toggle="tab"><?php echo "$accountpage_menu_orders"; ?></a></li>
+                <li><a href="#subscription-tab-content" data-toggle="tab"><?php echo "$accountpage_menu_subscription"; ?></a></li>
+                <li><a href="#address-tab-content" data-toggle="tab"><?php echo "$accountpage_menu_address"; ?></a></li>
+                <li><a href="#password-tab-content" data-toggle="tab"><?php echo "$accountpage_menu_password"; ?></a></li>
+            </ul>
+          </div>
+
+<!--OVERVIEW TAB -->
+            <div id="maincontainer-account" class="tab-content col-xs-9">
+                <div class="tab-pane active" id="overview-tab-content">
+                    <h2><?php echo "$accountpage_overview_title"; ?></h2>
+
+<!--ORDER SUB-BLOC -->
+
+                    <div class="account-sub-containers col-xs-12">
+                      <div class="account-bloc-containers">
+                        <div class="col-xs-12">
+                          <h3><?php echo "$accountpage_overview_bloc1_orders_title"; ?></h3>
+                            <div class="account-label-content-group order-juice-content col-xs-6">
+                              <ul>
+                                <li>Jus de Mangue, touche Péruvienne</li>
+                                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</li>
+                              </ul>
+                            </div>
+                            <div class="account-label-content-group col-xs-3">
+                              <label for=""><?php echo "$accountpage_overview_bloc1_orders_status_label"; ?></label>
+                              <p>En préparation</p>
+                            </div>
+                            <div class="account-label-content-group col-xs-3">
+                              <label for=""><?php echo "$accountpage_overview_bloc1_orders_date_label"; ?></label>
+                              <p>1 Juin</p>
+                            </div>
+                            <div class="account-label-content-group col-xs-12">
+                              <div class="cta-red cta-account cta-account-overview" >
+                                <a href="#" data-toggle="tab"><?php echo "$accountpage_overview_bloc1_orders_cta"; ?></a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+
+<!--ADDRESS SUB-BLOC -->
+                    <div class="account-sub-containers col-xs-12">
+                      <div class="account-bloc-containers ">
+
+                        <div class="col-xs-12">
+                          <h3><?php echo "$accountpage_overview_bloc2_address_title"; ?></h3>
+                          <div class="account-label-content-group col-xs-6">
+                            <label for=""><?php echo "$accountpage_overview_bloc2_address_fulladdress_label"; ?></label>
+                            <p>39 Boulevard Jean Jaures, 92110, Clichy</p>
+                          </div>
+                          <div class="account-label-content-group col-xs-2">
+                            <label for=""><?php echo "$subscriptionpage_steps_step2_label_floor"; ?></label>
+                            <p>3e</p>
+                          </div>
+                          <div class="account-label-content-group col-xs-2">
+                            <label for=""><?php echo "$subscriptionpage_steps_step2_label_numberapartment"; ?></label>
+                            <p>12</p>
+                          </div>
+                          <div class="account-label-content-group col-xs-2">
+                            <label for=""><?php echo "$subscriptionpage_steps_step2_label_doorcode"; ?></label>
+                            <p>34553</p>
+                          </div>
+                          <div class="account-label-content-group col-xs-8">
+                            <label for=""><?php echo "$subscriptionpage_steps_step2_label_instruction"; ?></label>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                          </div>
+                          <div class="col-xs-12">
+                            <div class="cta-red cta-account cta-account-overview" >
+                              <a href="#"><?php echo "$accountpage_overview_bloc2_address_cta"; ?></a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+
+<!--PROFIL SUB-BLOC -->
+
+                    <div class="account-sub-containers col-xs-6">
+                      <div class="account-bloc-containers">
+                        <div class="col-xs-12">
+                          <h3><?php echo "$accountpage_overview_bloc3_profil_title"; ?></h3>
+                          <div class="account-label-content-group col-xs-6">
+                            <label for=""><?php echo "$accountpage_overview_bloc3_profil_fullname_label"; ?></label>
+                            <p>Remi Rollet</p>
+                          </div>
+                          <div class="account-label-content-group col-xs-6">
+                            <label for=""><?php echo "$subscriptionpage_steps_step1_label_phone"; ?></label>
+                            <p>06 71 98 69 08</p>
+                          </div>
+                          <div class="account-label-content-group col-xs-12">
+                            <label for=""><?php echo "$subscriptionpage_steps_step1_label_email"; ?></label>
+                            <p>yahouedeou.maxime@gmail.com</p>
+                          </div>
+                          <div class="account-label-content-group col-xs-12">
+                            <div class="cta-red cta-account cta-account-overview" >
+                              <a href="#"><?php echo "$accountpage_overview_bloc3_profil_cta"; ?></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+<!--SUBSCRIPTION SUB-BLOC -->
+
+                    <div class="account-sub-containers col-xs-6">
+                      <div class="account-bloc-containers">
+                        <div class="col-xs-12">
+                            <h3 ><?php echo "Abonnement Jus National"; ?></h3>
+                            <div class="account-label-content-group account-content-text col-xs-12">
+                              <p><?php echo "$accountpage_overview_bloc4_subscription_planmilkman1_description"; ?></p>
+                              </div>
+                              <div class="col-xs-12">
+                                <div class="cta-red cta-account cta-account-overview" >
+                                  <a href="#"><?php echo "$accountpage_overview_bloc4_subscription_cta"; ?></a>
+                                </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+<!--PROFIL TAB -->
+                <div class="tab-pane" id="profil-tab-content">
+                    <h2><?php echo "$accountpage_overview_bloc3_profil_title"; ?></h2>
+                        <div class="account-sub-containers col-xs-12">
+                          <div class="account-bloc-containers">
+                            <div class="col-xs-12">
+                              <div class="col-xs-12">
+                              </div>
+                              <div class="account-label-content-group col-xs-6">
+                                <label for=""><?php echo "$accountpage_overview_bloc3_profil_fullname_label"; ?></label>
+                                <p>Remi Rollet</p>
+                              </div>
+                              <div class="account-label-content-group col-xs-6">
+                                <label for=""><?php echo "$subscriptionpage_steps_step1_label_phone"; ?></label>
+                                <p>06 71 98 69 08</p>
+                              </div>
+                              <div class="account-label-content-group col-xs-12">
+                                <label for=""><?php echo "$subscriptionpage_steps_step1_label_email"; ?></label>
+                                <p>yahouedeou.maxime@gmail.com</p>
+                              </div>
+<!-- Button trigger modal -->
+                              <div class="col-xs-12">
+                                <div class="cta-red cta-account" >
+                                  <a href="#" data-toggle="modal" data-target="#modal-edit-profil" ><?php echo "$accountpage_overview_bloc3_profil_cta"; ?></a>
+                                </div>
+                              </div>
+<!-- Modal PROFIL EDITION-->
+                              <div class="modal" id="modal-edit-profil" tabindex="-1" role="dialog" aria-labelledby="modal-edit-profil">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h4 class="modal-title"><?php echo "$accountpage_overview_bloc3_profil_cta"; ?></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="col-xs-12 container-content-modal">
+
+                                        <div class="steps-container-label-inputs col-xs-6">
+                                          <label for=""><?php echo "$subscriptionpage_steps_step1_label_surname"; ?></label>
+                                          <input type="text" name="surname" value="">
+                                        </div>
+                                        <div class="steps-container-label-inputs col-xs-6">
+                                          <label for=""><?php echo "$subscriptionpage_steps_step1_label_name"; ?></label>
+                                          <input type="text" name="name" value="">
+                                        </div>
+
+                                        <div class="steps-container-label-inputs col-xs-12">
+                                          <label for=""><?php echo "$subscriptionpage_steps_step1_label_email"; ?></label>
+                                          <input type="text" name="email" value="">
+                                        </div>
+
+                                        <div class="steps-container-label-inputs col-xs-6">
+                                          <label for=""><?php echo "$subscriptionpage_steps_step1_label_phone"; ?></label>
+                                          <input type="text" name="phone" value="">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <div class="cta-grey cta-account cta-modal" >
+                                        <a href="#" data-dismiss="modal"><?php echo "$accountpage_modal_close"; ?></a>
+                                      </div>
+                                      <div class="cta-red cta-account cta-modal" >
+                                        <a href="#"><?php echo "$accountpage_profiltab_cta"; ?></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+
+<!--ADDRESS TAB -->
+                <div class="tab-pane" id="address-tab-content">
+                    <h2><?php echo "$accountpage_overview_bloc2_address_title"; ?></h2>
+                        <div class="account-sub-containers col-xs-12">
+                          <div class="account-bloc-containers">
+                            <div class="col-xs-12">
+                              <div class="account-label-content-group col-xs-12">
+                                <label for=""><?php echo "$accountpage_overview_bloc2_address_fulladdress_label"; ?></label>
+                                <p>39 Boulevard Jean Jaures, 92110, Clichy</p>
+                              </div>
+                              <div class="account-label-content-group col-xs-4">
+                                <label for=""><?php echo "$subscriptionpage_steps_step2_label_floor"; ?></label>
+                                <p>3e</p>
+                              </div>
+                              <div class="account-label-content-group col-xs-4">
+                                <label for=""><?php echo "$subscriptionpage_steps_step2_label_numberapartment"; ?></label>
+                                <p>12</p>
+                              </div>
+                              <div class="account-label-content-group col-xs-4">
+                                <label for=""><?php echo "$subscriptionpage_steps_step2_label_doorcode"; ?></label>
+                                <p>34553</p>
+                              </div>
+                              <div class="account-label-content-group col-xs-12">
+                                <label for=""><?php echo "$subscriptionpage_steps_step2_label_instruction"; ?></label>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                              </div>
+<!-- Button trigger modal -->
+                              <div class="col-xs-12">
+                                <div class="cta-red cta-account" >
+                                  <a href="#" data-toggle="modal" data-target="#modal-edit-address" ><?php echo "$accountpage_addresstab_cta"; ?></a>
+                                </div>
+                              </div>
+<!-- Modal ADDRESS EDITION-->
+                              <div class="modal" id="modal-edit-address" tabindex="-1" role="dialog" aria-labelledby="modal-edit-profil">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h4 class="modal-title"><?php echo "$accountpage_overview_bloc2_address_title"; ?></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="col-xs-12 container-content-modal">
+
+                                        <div class="steps-container-label-inputs col-xs-9">
+                                          <label for=""><?php echo "$subscriptionpage_steps_step2_label_address"; ?></label>
+                                          <input type="text" name="address" value="">
+                                        </div>
+                                        <div class="steps-container-label-inputs col-xs-3">
+                                          <label for=""><?php echo "$subscriptionpage_steps_step2_label_address_number"; ?></label>
+                                          <input type="text" name="addressnumber" value="">
+                                        </div>
+
+                                        <div class="steps-container-label-inputs col-xs-8">
+                                          <label for=""><?php echo "$subscriptionpage_steps_step2_label_city"; ?></label>
+                                          <input type="text" name="city" value="">
+                                        </div>
+
+                                        <div class="steps-container-label-inputs col-xs-4">
+                                          <label for=""><?php echo "$subscriptionpage_steps_step2_label_postalcode"; ?></label>
+                                          <input type="password" name="postalcode" value="">
+                                        </div>
+                                        <div class="steps-container-label-inputs col-xs-4">
+                                          <label for=""><?php echo "$subscriptionpage_steps_step2_label_doorcode"; ?></label>
+                                          <input type="text" name="doorcode" value="">
+                                        </div>
+                                        <div class="steps-container-label-inputs col-xs-4">
+                                          <label for=""><?php echo "$subscriptionpage_steps_step2_label_numberapartment"; ?></label>
+                                          <input type="text" name="apartmentnumber" value="">
+                                        </div>
+                                        <div class="steps-container-label-inputs col-xs-4">
+                                          <label for=""><?php echo "$subscriptionpage_steps_step2_label_floor"; ?></label>
+                                          <input type="text" name="floor" value="">
+                                        </div>
+
+                                        <div class="steps-container-label-inputs col-xs-12 ">
+                                          <label for=""><?php echo "$subscriptionpage_steps_step2_label_instruction"; ?></label>
+                                          <textarea name="instructions" rows="5" cols="40"></textarea>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <div class="cta-grey cta-account cta-modal" >
+                                        <a href="#" data-dismiss="modal"><?php echo "$accountpage_modal_close"; ?></a>
+                                      </div>
+                                      <div class="cta-red cta-account cta-modal" >
+                                        <a href="#"><?php echo "$accountpage_profiltab_cta"; ?></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+
+<!--PASSWORD TAB -->
+                <div class="tab-pane" id="password-tab-content">
+                    <h2><?php echo "$accountpage_overview_bloc2_address_title"; ?></h2>
+                        <div class="account-sub-containers col-xs-12">
+                          <div class="account-bloc-containers">
+                            <div class="col-xs-12">
+                              <div class="col-xs-12">
+                                <p>Votre identifiant de connexion est: <span class="bold">yahouedeou.maxime@gmail.com</span></p>
+                              </div>
+<!-- Button trigger modal -->
+                              <div class="col-xs-12">
+                                <div class="cta-red cta-account" >
+                                  <a href="#" data-toggle="modal" data-target="#modal-edit-password" ><?php echo "$accountpage_passwordtab_edit"; ?></a>
+                                </div>
+                                <div class="cta-red cta-account" >
+                                  <a href="#" data-toggle="modal" data-target="#modal-forgotten-password" ><?php echo "$accountpage_passwordtab_forgotten"; ?></a>
+                                </div>
+                              </div>
+<!-- Modal EDIT PASSWORD EDITION-->
+                              <div class="modal" id="modal-edit-password" tabindex="-1" role="dialog" aria-labelledby="modal-edit-profil">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h4 class="modal-title"><?php echo "$accountpage_passwordtab_edit"; ?></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div class="col-xs-12 container-content-modal">
+
+                                        <div class="steps-container-label-inputs col-xs-12">
+                                          <label for=""><?php echo "$accountpage_passwordtab_editpassword_old"; ?></label>
+                                          <input type="text" name="" value="">
+                                        </div>
+                                        <div class="steps-container-label-inputs col-xs-12">
+                                          <label for=""><?php echo "$accountpage_passwordtab_editpassword_new"; ?></label>
+                                          <input type="text" name="" value="">
+                                        </div>
+                                        <div class="steps-container-label-inputs col-xs-12">
+                                          <label for=""><?php echo "$accountpage_passwordtab_editpassword_newconfirmation"; ?></label>
+                                          <input type="text" name="" value="">
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <div class="cta-grey cta-account cta-modal" >
+                                        <a href="#" data-dismiss="modal"><?php echo "$accountpage_modal_close"; ?></a>
+                                      </div>
+                                      <div class="cta-red cta-account cta-modal" >
+                                        <a href="#"><?php echo "$accountpage_profiltab_cta"; ?></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                </div>
+
+<!--ORDERS TAB -->
+
+                <div class="tab-pane" id="orders-tab-content">
+                    <h2><?php echo "$accountpage_menu_orders"; ?></h2>
+                    <div class="account-sub-containers col-xs-12">
+<!--ORDERS 1 -->
+                      <div class="account-bloc-containers">
+                        <div class="col-xs-12">
+                          <div class="order-juice-content col-xs-6">
+                            <ul>
+                              <li>Jus de Mangue, touche Péruvienne</li>
+                              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</li>
+                            </ul>
+                          </div>
+                          <div class="account-label-content-group col-xs-3">
+                            <label for=""><?php echo "$accountpage_overview_bloc1_orders_date_label"; ?></label>
+                            <p>1 Juin</p>
+                          </div>
+                          <div class="account-label-content-group account-status-order col-xs-3">
+                            <label for=""><?php echo "$accountpage_overview_bloc1_orders_status_label"; ?></label>
+                            <p>En préparation</p>
+                            <div class="cta-red-text cta-account" >
+                              <a href="?page=account"><?php echo "$accountpage_orderstab_cta"; ?></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+  <!--ORDERS 2 -->
+                      <div class="account-bloc-containers">
+                        <div class="col-xs-12">
+                          <div class="order-juice-content col-xs-6">
+                            <ul>
+                              <li>Jus de Mangue, touche Péruvienne</li>
+                              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</li>
+                            </ul>
+                          </div>
+                          <div class="account-label-content-group col-xs-3">
+                            <label for=""><?php echo "$accountpage_overview_bloc1_orders_date_label"; ?></label>
+                            <p>1 Juin</p>
+                          </div>
+                          <div class="account-label-content-group account-status-order col-xs-3">
+                            <label for=""><?php echo "$accountpage_overview_bloc1_orders_status_label"; ?></label>
+                            <p>En préparation</p>
+                            <div class="cta-red-text cta-account" >
+                              <a href="?page=account"><?php echo "$accountpage_orderstab_cta"; ?></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+<!--ORDERS 3 -->
+                      <div class="account-bloc-containers">
+                        <div class="col-xs-12">
+                          <div class="order-juice-content col-xs-6">
+                            <ul>
+                              <li>Jus de Mangue, touche Péruvienne</li>
+                              <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</li>
+                            </ul>
+                          </div>
+                          <div class="account-label-content-group col-xs-3">
+                            <label for=""><?php echo "$accountpage_overview_bloc1_orders_date_label"; ?></label>
+                            <p>1 Juin</p>
+                          </div>
+                          <div class="account-label-content-group account-status-order col-xs-3">
+                            <label for=""><?php echo "$accountpage_overview_bloc1_orders_status_label"; ?></label>
+                            <p>En préparation</p>
+                            <div class="cta-red-text cta-account" >
+                              <a href="?page=account"><?php echo "$accountpage_orderstab_cta"; ?></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                </div>
+
+
+<!--SUBSCRIPTION TAB -->
+
+                <div class="tab-pane" id="subscription-tab-content">
+                    <h2><?php echo "$accountpage_subscriptiontab_title"; ?></h2>
+
+                    <div class="account-sub-containers col-xs-12">
+                      <div class="account-bloc-containers">
+
+                        <div class="col-xs-6">
+                          <div class="col-xs-12">
+                            <h3><?php echo "$accountpage_overview_bloc4_subscription_title"; ?></h3>
+                          </div>
+                          <div class="col-xs-12">
+                          <p><?php echo "$accountpage_overview_bloc4_subscription_planmilkman1_description"; ?></p>
+                          </div>
+                          <div class="col-xs-12">
+                            <div class="cta-grey cta-account" >
+                              <a href="?page=account"><?php echo "$accountpage_subscriptiontab_cta1"; ?></a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-xs-6">
+                          <div class="col-xs-12">
+                            <h3><?php echo "$accountpage_overview_bloc4_subscription_title2"; ?></h3>
+                          </div>
+                          <div class="col-xs-12">
+                            <p><?php echo "$accountpage_overview_bloc4_subscription_planmilkman1_description"; ?></p>
+                          </div>
+                          <div class="col-xs-12">
+                            <div class="cta-red cta-account" >
+                              <a href="?page=account">Passer à l'offre suppérieure</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="account-sub-containers col-xs-12">
+                      <div class="account-bloc-containers">
+                        <div class="col-xs-12">
+                          <div class="col-xs-12">
+                            <h3>Paiement</h3>
+                            <div class="cta-red cta-account" >
+                              <a href="?page=account"><?php echo "$accountpage_paymenttab_editpayment_cta"; ?></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+
+
+
+          </div>
+
+
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<?php include ('include/footer.inc.html'); ?>
